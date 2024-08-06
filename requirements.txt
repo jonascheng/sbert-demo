@@ -1,0 +1,10 @@
+# for jupyter
+jupyterlab
+numpy
+pandas
+plotly
+scikit-learn
+
+#
+chromadb
+sentence_transformers
