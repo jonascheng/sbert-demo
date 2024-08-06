@@ -18,6 +18,7 @@ jupyter: setup ## start jupyter notebook
 
 .PHONY: run
 run: ## run the application
+	mkdir -p models/all-MiniLM-L6-v2
 	Jupyter-lab
 
 .PHONY: help
