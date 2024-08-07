@@ -10,3 +10,6 @@
 
 # SBERT model
 models/
+
+# Chrome data
+chromadb/
