@@ -73,8 +73,8 @@ def view_database(client):
 
 def visualize(collection):
     data = collection.get(include=['embeddings', 'metadatas', 'documents'])
-    # remove 'urls', 'data', and 'included' keys from the data
-    data.pop('urls', None)
+    # remove 'uris', 'data', and 'included' keys from the data
+    data.pop('uris', None)
     data.pop('data', None)
     data.pop('included', None)
 
