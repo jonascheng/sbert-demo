@@ -18,6 +18,10 @@ jupyter: setup ## start jupyter notebook
 	mkdir -p models/all-MiniLM-L6-v2
 	Jupyter-lab
 
+.PHONY: viewer
+viewer: setup ## start chorma-viewer
+	streamlit run viewer.py
+
 .PHONY: help
 help: ## prints this help message
 	@echo "Usage: \n"

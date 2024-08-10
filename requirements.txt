@@ -8,3 +8,7 @@ scikit-learn
 #
 chromadb
 sentence_transformers
+
+# viewer
+streamlit
+watchdog
