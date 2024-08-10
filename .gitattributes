@@ -1,0 +1,4 @@
+assets/552466d6-7728-11ee-b936-00505696604e-sysop-alerts-createprocess.csv filter=lfs diff=lfs merge=lfs -text
+assets/552466d6-7728-11ee-b936-00505696604e-sysop-baseline-createprocess-only-enabled.csv filter=lfs diff=lfs merge=lfs -text
+assets/d9eaf13e-6aed-11ed-af76-005056b3b165-script-alerts.csv filter=lfs diff=lfs merge=lfs -text
+assets/d9eaf13e-6aed-11ed-af76-005056b3b165-script-baseline-only-enabled.csv filter=lfs diff=lfs merge=lfs -text
